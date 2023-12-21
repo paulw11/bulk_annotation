@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C9ED09D2B33D2E2002B54E3 /* ArrowStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9ED09C2B33D2E2002B54E3 /* ArrowStarView.swift */; };
 		BB5562072B31424E009A25B4 /* BulkAnnotationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5562062B31424E009A25B4 /* BulkAnnotationApp.swift */; };
 		BB5562092B31424E009A25B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5562082B31424E009A25B4 /* ContentView.swift */; };
 		BB55620B2B314250009A25B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB55620A2B314250009A25B4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C9ED09C2B33D2E2002B54E3 /* ArrowStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowStarView.swift; sourceTree = "<group>"; };
 		BB5562032B31424E009A25B4 /* BulkAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulkAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5562062B31424E009A25B4 /* BulkAnnotationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkAnnotationApp.swift; sourceTree = "<group>"; };
 		BB5562082B31424E009A25B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				BB5562162B31429A009A25B4 /* Datasource.swift */,
 				BB55621A2B314F6E009A25B4 /* stops.geojson */,
 				BB5562082B31424E009A25B4 /* ContentView.swift */,
+				9C9ED09C2B33D2E2002B54E3 /* ArrowStarView.swift */,
 				BB55620A2B314250009A25B4 /* Assets.xcassets */,
 				BB55620C2B314250009A25B4 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			files = (
 				BB5562172B31429A009A25B4 /* Datasource.swift in Sources */,
 				BB5562092B31424E009A25B4 /* ContentView.swift in Sources */,
+				9C9ED09D2B33D2E2002B54E3 /* ArrowStarView.swift in Sources */,
 				BB5562072B31424E009A25B4 /* BulkAnnotationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

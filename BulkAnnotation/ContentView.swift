@@ -16,8 +16,12 @@ struct ContentView: View {
             Map() {
                 if !self.datasource.features.isEmpty {
                     ForEach (datasource.features, id: \.self) { feature in
-                        Marker(feature.properties.name ??
-                                   "", coordinate: feature.properties.coordinate) 
+//                        Marker(feature.properties.name ??
+//                                   "", coordinate: feature.properties.coordinate) 
+                       Annotation(feature.properties.name ?? "", coordinate: CLLocationCoordinate2D(latitude: feature.properties.latitude, longitude: feature.properties.longitude ), anchor: .topTrailing) {
+                          ArrowStarView()
+                       }
+
                     }
                 }
             }
